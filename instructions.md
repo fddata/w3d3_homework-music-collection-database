@@ -17,6 +17,6 @@ Further tasks
 Additionally it would be nice to be able to:
 
 Edit Artists/Albums
-Delete Artists/Albums
+Delete Artistals/Albums
 Find Artists/Albums by their ID
 Remember to regularly git commit!
