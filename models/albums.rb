@@ -49,5 +49,13 @@ class Album
     SqlRunner.run(sql, values)
   end
 
+  def self.find(id)
+    sql = "SELECT * from albums where id = $1"
+    values = [id]
+    result = SqlRunner.run(sql, values)
+    return Album.new(result.first)
+  end
+
+
 
 end
